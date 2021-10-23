@@ -19,6 +19,10 @@ The benchmark tasks are:
 | [Seeeduino Xiao](https://wiki.seeedstudio.com/Seeeduino-XIAO/) | ATSAMD21G18A-MU | Cortex-M0+ | 48 | No | 679416 | 83082 | 113193 |
 | [Nucleo F411RE](https://www.st.com/ja/evaluation-tools/nucleo-f411re.html) ([STM32duino](https://github.com/stm32duino/Arduino_Core_STM32)) | STM32F411RE | Cortex-M4 | 100 | Yes | 16284 | 1014 | 1139 |
 
+Note: **Above values are results of a single measurement.**
+"Mean calculation" and "Variance calculation" does not intend the mean/variance of results.
+These are time spent to calculate mean and variance of 4000 Gaussian random numbers.
+
 ## Discussion
 ### Performance difference between Pi Pico SDK and Arduino Mbed Core
 On Raspberry Pi Pico, Arduino version was slower than Pico SDK version despite the chip was the same.

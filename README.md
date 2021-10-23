@@ -17,4 +17,4 @@ The benchmark tasks are:
 | [ESP32-DevKitC](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/hw-reference/esp32/get-started-devkitc.html) | ESP32 | Xtensa LX6 | 240 | Yes | 11965 | 3217 | 3334 |
 | [M5Stamp C3](https://docs.m5stack.com/en/core/stamp_c3) | ESP32-C3 | RV32IMC | 160 | No | 135386 | 13638 | 19240 |
 | [Seeeduino Xiao](https://wiki.seeedstudio.com/Seeeduino-XIAO/) | ATSAMD21G18A-MU | Cortex-M0+ | 48 | No | 679416 | 83082 | 113193 |
-
+| [Nucleo F411RE](https://www.st.com/ja/evaluation-tools/nucleo-f411re.html) ([STM32duino](https://github.com/stm32duino/Arduino_Core_STM32)) | STM32F411RE | Cortex-M4 | 100 | Yes | 16284 | 1014 | 1139 |

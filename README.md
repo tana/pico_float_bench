@@ -18,3 +18,10 @@ The benchmark tasks are:
 | [M5Stamp C3](https://docs.m5stack.com/en/core/stamp_c3) | ESP32-C3 | RV32IMC | 160 | No | 135386 | 13638 | 19240 |
 | [Seeeduino Xiao](https://wiki.seeedstudio.com/Seeeduino-XIAO/) | ATSAMD21G18A-MU | Cortex-M0+ | 48 | No | 679416 | 83082 | 113193 |
 | [Nucleo F411RE](https://www.st.com/ja/evaluation-tools/nucleo-f411re.html) ([STM32duino](https://github.com/stm32duino/Arduino_Core_STM32)) | STM32F411RE | Cortex-M4 | 100 | Yes | 16284 | 1014 | 1139 |
+
+## Discussion
+### Performance difference between Pi Pico SDK and Arduino Mbed Core
+On Raspberry Pi Pico, Arduino version was slower than Pico SDK version despite the chip was the same.
+It seems because of the difference of software float routines.
+[Current version of Arduino Mbed Core does not use the optimized float routines built in RP2040](https://github.com/arduino/ArduinoCore-mbed/issues/325) (at the time of Octover 23, 2021).
+However, it seems to be solved soon.

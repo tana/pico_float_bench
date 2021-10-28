@@ -27,5 +27,5 @@ These are time spent to calculate mean and variance of 4000 Gaussian random numb
 ### Performance difference between Pi Pico SDK and Arduino Mbed Core
 On Raspberry Pi Pico, Arduino version was slower than Pico SDK version despite the chip was the same.
 It seems because of the difference of software float routines.
-[Current version of Arduino Mbed Core does not use the optimized float routines built in RP2040](https://github.com/arduino/ArduinoCore-mbed/issues/325) (at the time of Octover 23, 2021).
+[Current version of Arduino Mbed Core does not use the optimized float routines built in RP2040](https://github.com/arduino/ArduinoCore-mbed/issues/325) (at the time of October 23, 2021).
 However, it seems to be solved soon.

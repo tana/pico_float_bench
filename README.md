@@ -15,6 +15,7 @@ The benchmark tasks are:
 | [Raspberry Pi Pico](https://www.raspberrypi.com/documentation/microcontrollers/raspberry-pi-pico.html) | RP2040 | Cortex-M0+ | 125[^1] | No | [Pico SDK](https://github.com/raspberrypi/pico-sdk) | 49081 | 11560 | 17100 |
 | [Raspberry Pi Pico](https://www.raspberrypi.com/documentation/microcontrollers/raspberry-pi-pico.html) | RP2040 | Cortex-M0+ | ?[^2] | No | [Arduino mbed core](https://blog.arduino.cc/2021/04/27/arduino-mbed-core-for-rp2040-boards/) | 248237 | 27350 | 36410 |
 | [ESP32-DevKitC](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/hw-reference/esp32/get-started-devkitc.html) | ESP32 | Xtensa LX6 | 240 | Yes | Arduino | 11965 | 3217 | 3334 |
+| [AtomS3](https://docs.m5stack.com/en/core/AtomS3) | ESP32-S3 | Xtensa LX7 | 240 | Yes | Arduino | 9369 | 1138 | 1278 |
 | [M5Stamp C3](https://docs.m5stack.com/en/core/stamp_c3) | ESP32-C3 | RV32IMC | 160 | No | Arduino | 135386 | 13638 | 19240 |
 | [Seeeduino Xiao](https://wiki.seeedstudio.com/Seeeduino-XIAO/) | ATSAMD21G18A-MU | Cortex-M0+ | 48 | No | Arduino | 679416 | 83082 | 113193 |
 | [Nucleo F411RE](https://www.st.com/ja/evaluation-tools/nucleo-f411re.html) | STM32F411RE | Cortex-M4 | 100 | Yes | [STM32duino](https://github.com/stm32duino/Arduino_Core_STM32) | 16284 | 1014 | 1139 |

@@ -14,6 +14,7 @@ The benchmark tasks are:
 | :-- | :-- | :-- | --: | :-- | :-- | --: | --: | --: |
 | [Raspberry Pi Pico](https://www.raspberrypi.com/documentation/microcontrollers/raspberry-pi-pico.html) | RP2040 | Cortex-M0+ | 125[^1] | No | [Pico SDK](https://github.com/raspberrypi/pico-sdk) | 49081 | 11560 | 17100 |
 | [Raspberry Pi Pico](https://www.raspberrypi.com/documentation/microcontrollers/raspberry-pi-pico.html) | RP2040 | Cortex-M0+ | ?[^2] | No | [Arduino mbed core](https://blog.arduino.cc/2021/04/27/arduino-mbed-core-for-rp2040-boards/) | 248237 | 27350 | 36410 |
+| [Raspberry Pi Pico](https://www.raspberrypi.com/documentation/microcontrollers/raspberry-pi-pico.html) | RP2040 | Cortex-M0+ | 133 | No | [Arduino-Pico (by Earle Philhower)](https://github.com/earlephilhower/arduino-pico) | 44557 | 10420 | 15168 |
 | [ESP32-DevKitC](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/hw-reference/esp32/get-started-devkitc.html) | ESP32 | Xtensa LX6 | 240 | Yes | Arduino | 11965 | 3217 | 3334 |
 | [AtomS3](https://docs.m5stack.com/en/core/AtomS3) | ESP32-S3 | Xtensa LX7 | 240 | Yes | Arduino | 9369 | 1138 | 1278 |
 | [M5Stamp C3](https://docs.m5stack.com/en/core/stamp_c3) | ESP32-C3 | RV32IMC | 160 | No | Arduino | 135386 | 13638 | 19240 |
@@ -33,4 +34,4 @@ These are time spent to calculate mean and variance of 4000 Gaussian random numb
 On Raspberry Pi Pico, Arduino version was slower than Pico SDK version despite the chip was the same.
 It seems because of the difference of software float routines.
 [Current version of Arduino Mbed Core does not use the optimized float routines built in RP2040](https://github.com/arduino/ArduinoCore-mbed/issues/325) (at the time of October 23, 2021).
-However, it seems to be solved soon.
+~However, it seems to be solved soon.~ The situation is similar in November 2023.

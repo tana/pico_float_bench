@@ -19,6 +19,7 @@ The benchmark tasks are:
 | [AtomS3](https://docs.m5stack.com/en/core/AtomS3) | ESP32-S3 | Xtensa LX7 | 240 | Yes | Arduino | 9369 | 1138 | 1278 |
 | [M5Stamp C3](https://docs.m5stack.com/en/core/stamp_c3) | ESP32-C3 | RV32IMC | 160 | No | Arduino | 135386 | 13638 | 19240 |
 | [Seeeduino Xiao](https://wiki.seeedstudio.com/Seeeduino-XIAO/) | ATSAMD21G18A-MU | Cortex-M0+ | 48 | No | Arduino | 679416 | 83082 | 113193 |
+| [Wio Terminal](https://wiki.seeedstudio.com/Wio_Terminal_Intro/) | ATSAMD51P19 | Cortex-M4 | 120 | Yes | Arduino | 29235 | 836 | 936 |
 | [Nucleo F411RE](https://www.st.com/ja/evaluation-tools/nucleo-f411re.html) | STM32F411RE | Cortex-M4 | 100 | Yes | [STM32duino](https://github.com/stm32duino/Arduino_Core_STM32) | 16284 | 1014 | 1139 |
 | [Arduino UNO R4 WiFi](https://docs.arduino.cc/hardware/uno-r4-wifi) | RA4M1 | Cortex-M4 | 48 | Yes | Arduino | 81498 | 2094 | 2344 |
 
